@@ -10,7 +10,7 @@ import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Driver {
+public class seller {
 
 	JFrame frame;
 
@@ -21,7 +21,7 @@ public class Driver {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Driver window = new Driver();
+					seller window = new seller();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -33,7 +33,7 @@ public class Driver {
 	/**
 	 * Create the application.
 	 */
-	public Driver() {
+	public seller() {
 		initialize();
 	}
 
@@ -54,7 +54,7 @@ public class Driver {
 				frame.dispose();
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon(Driver.class.getResource("/GUI/pictures/back.png")));
+		btnNewButton.setIcon(new ImageIcon(seller.class.getResource("/GUI/pictures/back.png")));
 		btnNewButton.setBounds(10, 11, 52, 39);
 		frame.getContentPane().add(btnNewButton);
 
@@ -71,12 +71,12 @@ public class Driver {
 		frame.getContentPane().add(label_1);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(Driver.class.getResource("/GUI/pictures/login-rounded-right.png")));
+		label.setIcon(new ImageIcon(seller.class.getResource("/GUI/pictures/login-rounded-right.png")));
 		label.setBounds(400, 101, 209, 156);
 		frame.getContentPane().add(label);
 
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(Driver.class.getResource("/GUI/pictures/ok.png")));
+		lblNewLabel_1.setIcon(new ImageIcon(seller.class.getResource("/GUI/pictures/ok.png")));
 		lblNewLabel_1.setBounds(95, 96, 209, 156);
 		frame.getContentPane().add(lblNewLabel_1);
 
@@ -105,7 +105,7 @@ public class Driver {
 		frame.getContentPane().add(btnLogIn);
 
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(Driver.class.getResource("/GUI/pictures/171786-dark-pink-fluid-gradient-geometric-abstract-background.jpg")));
+		lblNewLabel.setIcon(new ImageIcon(seller.class.getResource("/GUI/pictures/171786-dark-pink-fluid-gradient-geometric-abstract-background.jpg")));
 		lblNewLabel.setBounds(0, 0, 684, 361);
 		frame.getContentPane().add(lblNewLabel);
 	}

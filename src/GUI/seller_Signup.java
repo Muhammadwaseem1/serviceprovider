@@ -14,7 +14,7 @@ import java.awt.event.ActionListener;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
 
-public class Driver_Signup {
+public class seller_Signup {
 
 	JFrame frame;
 	private JTextField nametxt;
@@ -33,7 +33,7 @@ public class Driver_Signup {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Driver_Signup window = new Driver_Signup();
+					seller_Signup window = new seller_Signup();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -45,7 +45,7 @@ public class Driver_Signup {
 	/**
 	 * Create the application.
 	 */
-	public Driver_Signup() {
+	public seller_Signup() {
 		initialize();
 	}
 
@@ -61,12 +61,12 @@ public class Driver_Signup {
 		JButton button_1 = new JButton("");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Driver obj=new Driver();
+				seller obj=new seller();
 				obj.frame.setVisible(true);
 				frame.dispose();
 			}
 		});
-		button_1.setIcon(new ImageIcon(Driver_Signup.class.getResource("/GUI/pictures/back.png")));
+		button_1.setIcon(new ImageIcon(seller_Signup.class.getResource("/GUI/pictures/back.png")));
 		button_1.setBounds(633, 11, 40, 38);
 		frame.getContentPane().add(button_1);
 		
@@ -93,7 +93,7 @@ public class Driver_Signup {
 		frame.getContentPane().add(fromtxt);
 		
 		JLabel label_3 = new JLabel("");
-		label_3.setIcon(new ImageIcon(Driver_Signup.class.getResource("/GUI/pictures/taxi_PNG73.png")));
+		label_3.setIcon(new ImageIcon(seller_Signup.class.getResource("/GUI/pictures/taxi_PNG73.png")));
 		label_3.setBounds(299, 66, 362, 216);
 		frame.getContentPane().add(label_3);
 		

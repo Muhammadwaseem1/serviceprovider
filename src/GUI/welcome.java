@@ -88,12 +88,12 @@ JFrame frame;
 		btnCustomer.setBounds(292, 275, 132, 34);
 		frame.getContentPane().add(btnCustomer);
 
-		JButton btnDriver = new JButton("Driver");
+		JButton btnDriver = new JButton("Seller");
 		btnDriver.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 
-				Driver obj=new Driver();
+				seller obj=new seller();
 				obj.frame.setVisible(true);
 				frame.dispose();
 			}
@@ -102,10 +102,10 @@ JFrame frame;
 		btnDriver.setBounds(530, 275, 132, 34);
 		frame.getContentPane().add(btnDriver);
 
-		JLabel lblRentACab = new JLabel("Rent A Cab");
+		JLabel lblRentACab = new JLabel("Service provider");
 		lblRentACab.setForeground(Color.WHITE);
 		lblRentACab.setFont(new Font("Microsoft JhengHei", Font.PLAIN, 33));
-		lblRentACab.setBounds(259, 32, 242, 40);
+		lblRentACab.setBounds(207, 43, 265, 40);
 		frame.getContentPane().add(lblRentACab);
 
 		JLabel lblNewLabel = new JLabel("");

@@ -58,7 +58,7 @@ public class Driver_login {
 		JButton button_1 = new JButton("");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Driver obj=new Driver();
+				seller obj=new seller();
 				obj.frame.setVisible(true);
 				frame.dispose();
 			}
